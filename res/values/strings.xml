@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">FontView</string>
+	<string name="novalue" translatable="false"></string>
+	<string name="menu_settings">Settings</string>
+	<string name="menu_back">Back</string>
+	<string name="menu_exit">Exit</string>
+	<string name="menu_info">Info</string>
+	<string name="menu_follow">Follow</string>
+	<string name="menu_sample">Sample</string>
+	<string name="not_implemented">Not implemented.</string>
+	<string name="no_settings">No settings.</string>
+	<string name="info_title">Info</string>
+	<string name="info_name">Name:</string>
+	<string name="info_path">Path:</string>
+	<string name="info_type">Type:</string>
+	<string name="info_type_directory">Directory</string>
+	<string name="info_type_file">File</string>
+	<string name="info_size">Size:</string>
+	<string name="info_kind">Kind:</string>
+	<string name="info_kind_regular">REGULAR</string>
+	<string name="info_kind_bold">BOLD</string>
+	<string name="info_kind_italic">ITALIC</string>
+	<string name="info_count">Contains:</string>
+	<string name="sample_title">Sample</string>
+	<string name="item_counts">%1$d font(s), %2$d subdir(s)</string>
+	<string name="button_back">Back</string>
+	<string name="button_exit">Exit</string>
+	<string name="button_ok">OK</string>
+	<string name="button_refresh">Refresh</string>
+	<string name="error_info">Unable to get info.\n[%1$s]</string>
+	<string name="sample_alpha_upper">ABCČĆDĐEFGHIJKLMNOPQRSŠTUVWXYZŽ</string>
+	<string name="sample_alpha_lower">abcčćdđefghijklmnopqrsštuvwxyzž</string>
+	<string name="sample_symbols">0123456789+-×÷=¤§©®±/*\\&amp;\'@\&quot;!?$€£¥^%#|</string>
+	<string name="sample_international">ÀÁÄÆÇÈÊËÍÏÑÓÖØÚÜÛßàáäæçéëíïñóŒœŘřŨũ</string>
+	<string-array name="sample_phrases">
+		<item>Sphinx of black quartz, judge my vow.</item>
+		<item>Jackdaws love my big sphinx of quartz.</item>
+		<item>Pack my box with five dozen liquor jugs.</item>
+		<item>The quick onyx goblin jumps over the lazy dwarf.</item>
+		<item>How razorback-jumping frogs can level six piqued gymnasts!</item>
+		<item>A quick brown fox jumps over the lazy dog.</item>
+		<item>Forsaking monastic tradition, twelve jovial friars gave up their vocation for a questionable existence on the flying trapeze.</item>
+		<item>Ebenezer unexpectedly bagged two tranquil aardvarks with his jiffy vacuum cleaner.</item>
+		<item>Six javelins thrown by the quick savages whizzed forty paces beyond the mark.</item>
+		<item>The explorer was frozen in his big kayak just after making queer discoveries.</item>
+		<item>The July sun caused a fragment of black pine wax to ooze on the velvet quilt.</item>
+		<item>The five boxing wizards jump quickly.</item>
+		<item>My faxed joke won a pager in the cable TV quiz show.</item>
+		<item>We promptly judged antique ivory buckles for the next prize.</item>
+	</string-array>
+</resources>

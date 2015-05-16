@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/list" style="@style/Sample">
+	<TextView style="@style/SampleText" android:text="@string/sample_alpha_upper" />
+	<TextView style="@style/SampleText" android:text="@string/sample_alpha_lower" />
+	<TextView style="@style/SampleText" android:text="@string/sample_symbols" />
+	<TextView style="@style/SampleText" android:text="@string/sample_international" />
+	<LinearLayout style="@style/SampleSeparator" />
+	<TextView style="@style/SampleText" android:textSize="4sp" />
+	<TextView style="@style/SampleText" android:textSize="7sp" />
+	<TextView style="@style/SampleText" android:textSize="12sp" />
+	<TextView style="@style/SampleText" android:textSize="14sp" />
+	<TextView style="@style/SampleText" android:textSize="16sp" />
+	<TextView style="@style/SampleText" android:textSize="20sp" />
+	<TextView style="@style/SampleText" android:textSize="24sp" />
+	<TextView style="@style/SampleText" android:textSize="34sp" />
+	<TextView style="@style/SampleText" android:textSize="45sp" />
+	<TextView style="@style/SampleText" android:textSize="56sp" />
+	<TextView style="@style/SampleText" android:textSize="112sp" />
+</LinearLayout>

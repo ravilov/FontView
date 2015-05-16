@@ -1,0 +1,89 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="AppBaseTheme" parent="android:Theme" />
+	<style name="AppTheme" parent="AppBaseTheme" />
+	<style name="Invisible" parent="android:Theme.NoDisplay" />
+	<style name="Dialog" parent="android:Theme.Dialog" />
+	<style name="ButtonBar" parent="android:ButtonBar">
+		<item name="android:orientation">horizontal</item>
+	</style>
+	<style name="Title" parent="AppTheme">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">40sp</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:padding">1dp</item>
+		<item name="android:background">@android:drawable/bottom_bar</item>
+	</style>
+	<style name="TitleText">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:layout_gravity">center_vertical|center_horizontal</item>
+		<item name="android:layout_margin">5dp</item>
+		<item name="android:paddingRight">6sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">start</item>
+		<item name="android:textColor">@android:color/primary_text_light_nodisable</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+	<style name="TitleButton">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">right|center_vertical</item>
+		<item name="android:layout_margin">0dp</item>
+		<item name="android:scaleType">centerInside</item>
+	</style>
+	<style name="Item">
+		<item name="android:padding">12dp</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:singleLine">true</item>
+	</style>
+	<style name="Info">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:padding">10sp</item>
+	</style>
+	<style name="InfoRow">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="InfoCaption">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:paddingRight">10sp</item>
+	</style>
+	<style name="InfoContent">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:singleLine">false</item>
+		<item name="android:text"></item>
+	</style>
+	<style name="SampleContainer">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_marginLeft">4dp</item>
+		<item name="android:layout_marginRight">4dp</item>
+		<item name="android:scrollbars">vertical|horizontal</item>
+	</style>
+	<style name="Sample">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:background">#FFFFFFFF</item>
+		<item name="android:padding">6sp</item>
+	</style>
+	<style name="SampleText">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#FF000000</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">none</item>
+		<item name="android:textSize">17sp</item>
+	</style>
+	<style name="SampleSeparator">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">12sp</item>
+	</style>
+</resources>

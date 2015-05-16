@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+	<TableLayout style="@style/Info">
+		<TableRow android:id="@+id/row_type" style="@style/InfoRow">
+			<TextView android:text="@string/info_type" style="@style/InfoCaption" />
+			<TextView android:id="@+id/info_type" style="@style/InfoContent" />
+		</TableRow>
+		<TableRow android:id="@+id/row_name" style="@style/InfoRow">
+			<TextView android:text="@string/info_name" style="@style/InfoCaption" />
+			<TextView android:id="@+id/info_name" style="@style/InfoContent" />
+		</TableRow>
+		<TableRow android:id="@+id/row_path" style="@style/InfoRow">
+			<TextView android:text="@string/info_path" style="@style/InfoCaption" />
+			<TextView android:id="@+id/info_path" style="@style/InfoContent" />
+		</TableRow>
+		<TableRow android:id="@+id/row_size" style="@style/InfoRow">
+			<TextView android:text="@string/info_size" style="@style/InfoCaption" />
+			<TextView android:id="@+id/info_size" style="@style/InfoContent" />
+		</TableRow>
+		<TableRow android:id="@+id/row_kind" style="@style/InfoRow">
+			<TextView android:text="@string/info_kind" style="@style/InfoCaption" />
+			<TextView android:id="@+id/info_kind" style="@style/InfoContent" />
+		</TableRow>
+		<TableRow android:id="@+id/row_count" style="@style/InfoRow">
+			<TextView android:text="@string/info_count" style="@style/InfoCaption" />
+			<TextView android:id="@+id/info_count" style="@style/InfoContent" />
+		</TableRow>
+	</TableLayout>
+<!--
+	<hr.ravilov.fontview.Scrollable style="@style/SampleContainer">
+		<include layout="@layout/sample" />
+	</hr.ravilov.fontview.Scrollable>
+-->
+	<hr.ravilov.fontview.ScrollView style="@style/SampleContainer">
+		<include layout="@layout/sample" />
+	</hr.ravilov.fontview.ScrollView>
+</LinearLayout>

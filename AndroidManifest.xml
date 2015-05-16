@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="hr.ravilov.fontview" android:versionCode="10006" android:versionName="1.0-beta6">
+	<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="14" />
+	<application android:allowBackup="true" android:label="@string/app_name" android:icon="@drawable/icon" android:theme="@style/AppTheme">
+		<activity android:name=".MainActivity" android:label="@string/app_name" tools:ignore="ExportedActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".ViewActivity" android:theme="@style/Invisible" tools:ignore="ExportedActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="file" android:host="*" android:mimeType="font/ttf" />
+				<data android:scheme="file" android:host="*" android:mimeType="font/otf" />
+				<data android:scheme="file" android:host="*" android:mimeType="font/truetype" />
+				<data android:scheme="file" android:host="*" android:mimeType="font/opentype" />
+				<data android:scheme="file" android:host="*" android:mimeType="application/ttf" />
+				<data android:scheme="file" android:host="*" android:mimeType="application/otf" />
+				<data android:scheme="file" android:host="*" android:mimeType="application/font" />
+				<data android:scheme="file" android:host="*" android:mimeType="application/font-ttf" />
+				<data android:scheme="file" android:host="*" android:mimeType="application/font-otf" />
+				<data android:scheme="file" android:host="*" android:mimeType="application/x-font-ttf" />
+				<data android:scheme="file" android:host="*" android:mimeType="application/x-font-otf" />
+				<data android:scheme="file" android:host="*" android:mimeType="application/x-font-truetype" />
+				<data android:scheme="file" android:host="*" android:mimeType="application/x-font-opentype" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="file" android:host="*" android:pathPattern=".*\\.ttf" />
+				<data android:scheme="file" android:host="*" android:pathPattern=".*\\.otf" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>
